@@ -1,0 +1,28 @@
+This code require the package gym installed and python3
+
+
+
+
+######################################################################################################
+To run the experiments presented in the paper (preset to shorter time horizon and 10 samples), 
+execute the commands:
+
+python3 exp_riverSwim6.py
+
+python3 exp_riverSwim20.py
+
+
+
+######################################################################################################
+To obtain the tables of values presented in appendix, execute the commands:
+
+python3 diameters_riverSwim.py
+
+python3 diameters_multitask.py
+
+## Note ##
+The hardcoded values in the diameters_* files can be obtain using the "run_exp*" function from the
+diameter.py file (be aware of the long running times), remark that the "multitask" environment as named in the paper is the class "flower" in the code.
+
+In the code RM and SA are freely used to designate the same object (Reward Machine = Subgoal Automata).
+
